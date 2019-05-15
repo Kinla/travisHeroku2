@@ -1,4 +1,4 @@
-/* server.js main file sharon*/
+/* server.js main file sharon */
 const express = require('express');
 
 const app = express();
