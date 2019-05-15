@@ -4,8 +4,9 @@
   "description": "node using travis and heroku",
   "main": "server.js",
   "scripts": {
-    "test": "npm run eslint server.js && mocha ./tests/index-spec.js",
-    "start": "node server.js"
+    "test": "npm run lint server.js && mocha ./tests/index-spec.js",
+    "start": "node server.js",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
