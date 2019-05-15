@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- stable
+npm: true
+cache:
+  directories:
+    - node_modules 
+deploy:
+  provider: heroku
+  api_key:
+    secure: PMRxqrl3eI5xJXXDrNoZcjVPJ/n9swsOf4lQDAOWoaZEhVEWHITcUxZVhwRFIkaXuB/sZVPvTwvLJBx4AHlqNgQ4QAySaaV5OdxIaKGIqG+cRqhf17xUlnx3T6BQfIZbBbqHkIE7Hf2OC1bqNXxlwRszcJiudpY8eZPYc4Sx+Oj04hXjugl7x3umBZ97VPO0ZsfbjmAXuXen4sO8fMbRvaobwR1qcOxMLAXE2wGO40WIFba8EchcXM0qbKptyhQij/U4P78OmApxLbiv0tAzpdQPAJAephRUPnxpjGwdsm0cJ1ip2PPmyToUl5IjtLQ7sS1KrNRr3pCrJYl5dQK0CLIRuhrCdaGFmbs/Ee+QrdyCFS+F2MDSZpLu9456yZQoELXgtumw6VJ4XByE5AFAe6Ngv6pA6n+9nQIDTnoWkJB2GWQIAViGJ7tTrwa+RVts+n2wsjGObFUcMqt803b6UzT1UQv97nt9GVVPWzYFPfEmxUTPsEPaT6/p05ebg53zhvGOFxSsZ1txapnlmG5C9ZMgD3+yfZCFj+45b/T8u/i2cK01PAP07LAKn3Ue0RpfK08+OboxaYQgd3q1r2Z64VjYE32j/fA+ZBpZ4g9uMKAgD13OH9gZBXby8JeuXHxCVf5b1LCpSxZHUkN90/PkcDWgmjA2s4xH+HXwRqQb6T0=
+  app: travisHeroku2
+  on:
+    repo: Kinla/travisHeroku2
