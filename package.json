@@ -4,7 +4,7 @@
   "description": "node using travis and heroku",
   "main": "server.js",
   "scripts": {
-    "test": "npm run lint server.js && mocha ./tests/index-spec.js",
+    "test": "npm run eslint server.js && mocha ./tests/index-spec.js",
     "start": "node server.js"
   },
   "repository": {
@@ -21,9 +21,8 @@
   "author": "Sharon Chien",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Kinla/travisHeroku2/issues"
+    "url": "https://github.com/eapostol/sample-travis-heroku-02/issues"
   },
-  "homepage": "https://github.com/Kinla/travisHeroku2#readme",
   "dependencies": {
     "chai": "^4.2.0",
     "express": "^4.16.4",
