@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kinla/travisHeroku2.git"
+    "url": "https://github.com/Kinla/travisHeroku2.git"
   },
   "keywords": [
     "heroku",
@@ -21,9 +21,6 @@
   ],
   "author": "Sharon Chien",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/eapostol/sample-travis-heroku-02/issues"
-  },
   "dependencies": {
     "chai": "^4.2.0",
     "express": "^4.16.4",
